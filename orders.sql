@@ -1,0 +1,8 @@
+CREATE TABLE orders (
+  id SERIAL PRIMARY KEY,
+  nama TEXT NOT NULL,
+  produk TEXT NOT NULL,
+  whatsapp TEXT NOT NULL,
+  alamat TEXT NOT NULL,
+  tanggal TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
