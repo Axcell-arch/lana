@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app = express();
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
+  connectionString: process.env.postgresql://postgres:Sementar4@db.ehngqzolqejaslnkktnz.supabase.co:5432/postgres,
   ssl: { rejectUnauthorized: false },
 });
 
